@@ -34,3 +34,5 @@ RIGTH = 'right'
 
 BULLET_ENEMY_TYPE = 'enemy'
 BULLET_SPACESHIP_TYPE = 'ship'
+
+WHITE = (255, 255, 255)
