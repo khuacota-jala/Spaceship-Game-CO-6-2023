@@ -31,3 +31,5 @@ FONT_STYLE = 'freesansbold.ttf'
 
 LEFT = 'left'
 RIGTH = 'right'
+
+BULLET_ENEMY_TYPE = 'enemy'

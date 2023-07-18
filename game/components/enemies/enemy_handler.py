@@ -4,10 +4,10 @@ class EnemyHandler:
     def __init__(self):
         self.enemies = []
 
-    def update(self):
+    def update(self, bullet_handler):
         self.add_enemy()
         for enemy in self.enemies:
-            enemy.update()
+            enemy.update(bullet_handler)
             if not enemy.is_visible:
                 self.remove_enemy(enemy)
 
