@@ -14,5 +14,8 @@ class BulletEnemy(Bullet):
         super().__init__(self.image, center)
 
     def update(self, player):
+        if self.rect.top < 0:
+            self.is_visible = False
+            self.is_alive = False
         self.rect.y += self.SPEED
         super().update(player)

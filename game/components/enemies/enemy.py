@@ -18,6 +18,7 @@ class Enemy:
         self.index = 0
         self.shooting_time = 0
         self.is_visible = True
+        self.is_alive = True
 
     def update(self, bullet_handler):
         self.index += 1
